@@ -1,0 +1,78 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.header {
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    background-color: #EABE7C;
+    padding: 20px 10px;
+  }
+nav{
+  display:flex;
+  padding:2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links{
+  font-family: 'Arvo', serif;
+  flex:1;
+  text-align: right;
+}
+.nav-links ul li{
+  font-family: 'Arvo', serif;
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  font-family: 'Arvo', serif;
+  color: #311E10;
+  text-decoration: none;
+  font-size: 24;
+}
+.container{
+
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.main-text{
+  margin-top: 70px;
+  font-size: 50px;
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #311E10;
+}
+.sub-text{
+  font-size: 96px;
+  color: #ECE4B7;
+  font-family: 'Nothing You Could Do';
+}
+.beeport{
+  float: right;
+  size-adjust: auto;
+  right:300;
+}
+.text-container{
+  display:flex;
+  flex-direction: column;
+  max-width:500
+
+}
+@media (max-width: 1200px) {
+  .main-text {
+    /* font-size: 21px; */
+  }
+  .container{
+    flex-direction: column;
+  }
+}
+
